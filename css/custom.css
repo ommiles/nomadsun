@@ -1,0 +1,144 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.cardo {
+    font-family: 'Cardo', georgia, serif;
+}
+
+.archivo,
+.text-block h3,
+.text-block blockquote h4 {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: normal;
+}
+
+.text-block blockquote h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    margin: 0;
+}
+
+.archivo-regular {
+    font-family: 'Archivo', sans-serif;
+}
+
+.tenor,
+.text-block blockquote p {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.text-block blockquote p {
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+.hero-heading {
+    letter-spacing: 0.05em;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.text-block h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+}
+
+.line {
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: #1c1c1c;
+}
+
+.gallery-image img {
+    width: auto !important;
+    height: auto !important;
+    display: block;
+
+}
+
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery .gallery-image:last-of-type {
+    margin-bottom: 0;
+}
+
+.content-parent a:nth-child(1) {
+    width: 65%;
+}
+
+.content-parent a:nth-child(2) {
+    width: 35%;
+}
+
+.content-parent a:nth-child(3) {
+    width: 35%;
+}
+
+.content-parent a:nth-child(4) {
+    width: 65%;
+}
+
+.content-align {
+    align-items: stretch;
+}
+
+.as-ra--ob {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.caption {
+    max-width: 870px;
+}
+
+.explore-title {
+    margin-bottom: 48px;
+    max-width: 320px;
+}
+
+.description {
+    max-width: 860px;
+}
+
+.footer-content {
+    background-color: #1c1c1c;
+}
+
+.link:focus {
+    outline: none;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
